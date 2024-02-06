@@ -24,10 +24,10 @@ color_list = [(236, 224, 80), (197, 7, 71), (195, 164, 13), (201, 75, 15), (231,
 t = Turtle()
 turtle.colormode(255)
 t.speed("fastest")
-t.setheading(230)
+t.setheading(230)  # modify this value to get an angle that fits the page
 t.penup()
 t.hideturtle()
-t.forward(340)
+t.forward(340)  # modify this value to get a stating point that fits the page
 t.setheading(0)
 x_coordinate, y_coordinate = t.position()
 
